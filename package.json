@@ -1,0 +1,14 @@
+{
+  "name": "wizeline_challenge_jesus_lopez",
+  "version": "1.0.0",
+  "description": "Wizeline Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test-chrome": "testcafe chrome src/saucedemo/tests/*.tests.js --selector--timeout 15000 --assertion--time 15000",
+    "test-chrome-headless": "testcafe chrome:headless src/saucedemo/tests/*.tests.js --selector--timeout 15000 --assertion--time 15000",
+    "test-firefox": "testcafe firefox src/saucedemo/tests/*.tests.js --selector--timeout 15000 --assertion--time 15000",
+    "test-allBrowsers-headless": "testcafe chrome:headless, firefox:headless src/saucedemo/tests/*.tests.js --selector--timeout 15000 --assertion--time 15000"
+  },
+  "author": "Jesus Lopez",
+  "license": "ISC"
+}
